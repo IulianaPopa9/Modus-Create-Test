@@ -1,28 +1,28 @@
 Modus Create test - Iuliana Popa
 
 Ensure that Node.js and npm are installed on your computer and run the following commands: 
-npm install testcafe
-npm install typescript
-npm install chai
+- npm install testcafe
+- npm install typescript
+- npm install chai
 
 Check in package.json these dev dependencies:
-    "chai": "^4.2.0",
-    "gulp-sass": "^4.0.0",
-    "node-sass": "4.12.0",
-    "testcafe": "^1.8.2",
-    "core-js": "^3.6.4"
+-  "chai": "^4.2.0",
+- "gulp-sass": "^4.0.0",
+- "node-sass": "4.12.0",
+- "testcafe": "^1.8.2",
+- "core-js": "^3.6.4"
 
 If gulp-sass and node-sass are not installed, run the following commands:
-npm install node-sass 
-npm install gulp-sass
+- npm install node-sass 
+- npm install gulp-sass
 
 In order to run a test go to the test's location and from command line, run this command:
- testcafe <browser> <test name>
- e.g.  /d/Modus Create/budgeting/e2e/_tests_ (Iuliana-Popa-Test)
+- testcafe <browser> <test name>
+- e.g.  /d/Modus Create/budgeting/e2e/_tests_ (Iuliana-Popa-Test)
 $ testcafe chrome index-test.js
 
 In order to run tests on different browsers, check available browsers by running this command:
-testcafe --list-browsers
+- testcafe --list-browsers
 
 Test Scenarios:
 
